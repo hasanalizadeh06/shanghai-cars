@@ -1,0 +1,206 @@
+.cars{
+    background-color: #2e2e3a;
+    color: white;
+}
+
+.cars button{
+    background-color: #6edbc6;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.cars img{
+    width: 100%;
+}
+
+                                /* header start */
+
+.cars > .services-header > .header-image{
+    width: 100%;
+    height: calc(100vh - 60px);
+    object-fit: cover;
+}
+                                /* header finish */
+.cars > .content{
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+                            /* content header start */
+
+.cars > .content > .content-header{
+    color: #6edbc6;
+    font-size: 2.5rem;
+}
+
+                            /* content header finish */
+
+                                /* byd start */
+.cars > .content > .byd{
+    display: flex;
+    gap: 50px;
+    margin-bottom: 80px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.cars > .content > .byd > .leftSide{
+    width: 70%;
+}
+.cars > .content > .byd > .leftSide > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.cars > .content > .byd > .rightSide{
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+    justify-content: center;
+    
+}
+
+.cars > .content > .byd > .rightSide > h1{
+    text-align: left;
+    font-size: 4rem;
+    color: #6edbc6;
+}
+                                /* byd finish */
+  
+                                /* text start */
+
+.cars > .content > .text{
+    position: relative;
+}
+
+.cars > .content > .text > button{
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 7px;
+}
+
+.cars > .content > .text > .text-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 100px;
+    width: 85%;
+}
+
+.cars > .content > .text > .text-content > .text-header{
+    color: #6edbc6;
+    font-size: 2rem;
+}
+
+                                /* text finish */
+                                /* img start */
+
+.cars > .content > .img1 {
+    margin-bottom: 80px;
+}
+                                /* img finish */
+                                /* nio start */
+.cars > .content > .nio{
+    display: flex;
+    gap: 50px;
+    margin-bottom: 80px;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.cars > .content > .nio > .rightSide{
+    width: 50%;
+}
+.cars > .content > .nio > .rightSide > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.cars > .content > .nio > .leftSide{
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    
+}
+
+.cars > .content > .nio > .leftSide > h1{
+    text-align: left;
+    font-size: 4rem;
+    color: #6edbc6;
+}
+
+                                /* nio finish */
+                                /* li start */
+
+.cars > .content > .li{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+.cars > .content > .li > .upper{
+    display: flex;
+    gap: 50px;
+    align-items: stretch;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.cars > .content > .li > .upper > .left{
+    color: #6edbc6;
+    font-size: 2rem;
+}
+                                /* li finish */
+
+
+/* 
+.cars
+    .services-header
+        .header-image
+    .content
+        .content-header
+            h1
+        .byd
+            .leftSide
+                img
+            .rightSide
+                h1
+                p
+                button
+        .text
+            button
+            .text-content
+                .text-header
+                    h1
+                .text-body
+                    p
+        .img
+            img
+        .nio
+            .leftSide
+                h1
+                p
+                button
+            .rightSide
+                img
+        .img
+            img
+        .li
+            .upper
+                .left
+                    h1
+                .right
+                    button
+            .lower
+                p
+*/

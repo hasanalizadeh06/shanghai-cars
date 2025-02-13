@@ -1,0 +1,273 @@
+.our-services{
+    background-color: #2e2e3a;
+}
+
+                                /* header start */
+
+.our-services > .services-header > .header-image{
+    width: 100%;
+    height: calc(100vh - 60px);
+    object-fit: cover;
+}
+                                /* header finish */
+
+                                /* main start */
+.our-services > .main{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.our-services > .main > .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70vw;
+    gap: 50px;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.our-services > .main > .container > .services-header{
+    display: flex;
+    justify-content: center;
+    color: #6edbc6;
+    font-size: 1.6rem;
+    align-items: center;
+}
+
+.our-services > .main > .container > .content{
+    width: 100%;
+    gap: 20px;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.our-services > .main > .container > .content > .content-row{
+    gap: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.our-services > .main > .container > .content > .content-row > .service{
+    padding: 20px;
+    background-image: url("../../assets/img/car_inside.jpg");
+    background-size: cover;
+    background-position: 80%;
+    display: flex;
+    color: white;
+    border-radius: 30px;
+}
+
+.our-services > .main > .container > .content > .first-row{
+    flex-grow: 4;
+}    
+.our-services > .main > .container > .content > .second-row{
+    flex-grow: 7;
+}    
+.our-services > .main > .container > .content > .content-row > .service-1{
+    flex-grow: 5;
+    align-items: flex-end;
+}
+.our-services > .main > .container > .content > .content-row > .service-2{
+    flex-grow: 3;
+}
+.our-services > .main > .container > .content > .content-row > .service-3{
+    justify-content: center;
+    flex-grow: 3;
+}
+.our-services > .main > .container > .content > .content-row > .service-4{
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-grow: 5;
+}
+                                /* main finish */
+
+                                /* details start */
+.our-services > .details{
+    padding: 100px;
+}
+
+.our-services > .details > .services-header{
+    color: #6edbc6;
+    font-size: 2rem;
+}
+.our-services > .details > .items{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 100px;
+    color: white;
+}
+
+.our-services > .details > .items > .item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.our-services > .details > .items > .item img{
+    width: 100%;
+    object-fit: cover;
+    height: 300px;
+}
+.our-services > .details > .items > .item1 > .leftSide{
+    width: 40%;
+}
+.our-services > .details > .items > .item1 > .leftSide > p{
+    width: 50%;
+    font-size: 1.2rem;
+}
+.our-services > .details > .items > .item1 > .rightSide{
+    width: 60%;
+}
+.our-services > .details > .items > .item1 > .rightSide img{
+    width: 100%;
+    height: 400px;
+}
+
+
+
+
+.our-services > .details > .items > .item2 > .leftSide{
+    width: 50%;
+}
+.our-services > .details > .items > .item2 > .leftSide > img{
+    width: 100%;
+    height: 350px;
+}
+.our-services > .details > .items > .item2 > .rightSide{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.our-services > .details > .items > .item2 > .rightSide > p{
+    width: 50%;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+
+
+.our-services > .details > .items > .item3{
+    justify-content: flex-start;
+}
+
+.our-services > .details > .items > .item3 > .leftSide{
+    width: 40%;
+}
+.our-services > .details > .items > .item3 > .leftSide > p{
+    width: 70%;
+}
+.our-services > .details > .items > .item3 > .rightSide img{
+    height: 400px;
+}
+                                /* details finish */
+                                /* campaigns start */
+
+.our-services > .campaigns{
+    /* height: 100vh; */
+    padding-bottom: 100px;
+}
+
+.our-services > .campaigns > .services-header{
+    color: #6edbc6;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.our-services > .campaigns > .items{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 50px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.our-services > .campaigns > .items > .item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.our-services > .campaigns > .items > .item > .upper{
+    height: 300px;
+    background-color: #6edbc6;
+    width: 500px;
+}
+
+.our-services > .campaigns > .items > .item > .down{
+    font-size: 2rem;
+}
+                                /* campaigns finish */
+
+/* 
+.our-services
+    .services-header
+        .header-image
+    .main
+        .container
+            .services-header
+                h1
+            .content
+                .content-row .first-row 
+                    .service .service-1
+                        h1
+                    .service .service-2
+                        h1
+                .content-row .second-row
+                    .service .service-3
+                        h1
+                    .service .service-4
+                        h1
+    .details
+        .services-header
+            h1
+        .items
+            .item1 .item
+                .leftSide
+                    p
+                .rightSide
+                    img
+            .item2 .item
+                .leftSide
+                    img
+                .rightSide
+                    p
+            .item3 .item
+                .leftSide
+                    p
+                .rightSide
+                    img
+
+
+    .campaigns
+        .services-header
+            h1
+        .items
+            .item
+                .upper
+                .down
+                    p
+            .item
+                .upper
+                .down
+                    p
+            .item
+                .upper
+                .down
+                    p
+
+*/
