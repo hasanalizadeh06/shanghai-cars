@@ -31,6 +31,11 @@
     justify-content: center;
     gap: 40px;
 }
+@media screen and (max-width: 768px){
+    .cars > .content{
+        padding: 30px;
+    }
+}
                             /* content header start */
 
 .cars > .content > .content-header{
@@ -72,6 +77,18 @@
     font-size: 4rem;
     color: #6edbc6;
 }
+@media screen and (max-width: 768px){
+    .cars > .content > .byd{
+        flex-direction: column;
+    }
+    .cars > .content > .byd > .leftSide{
+        width: 100%;
+    }
+    .cars > .content > .byd > .rightSide{
+        width: 85%;
+        align-self: flex-end;
+    }
+}
                                 /* byd finish */
   
                                 /* text start */
@@ -98,6 +115,15 @@
 .cars > .content > .text > .text-content > .text-header{
     color: #6edbc6;
     font-size: 2rem;
+}
+@media screen and (max-width: 768px){
+    .cars > .content > .text > .text-content{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .cars > .content > .text > .text-content > .text-header{
+        align-self: flex-start;
+    }
 }
 
                                 /* text finish */
@@ -140,6 +166,17 @@
     color: #6edbc6;
 }
 
+@media screen and (max-width: 768px){
+    .cars > .content > .nio{
+        flex-direction: column-reverse;
+    }
+    .cars > .content > .nio > .rightSide{
+        width: 100%;
+    }
+    .cars > .content > .nio > .leftSide{
+        width: 85%;
+    }
+}
                                 /* nio finish */
                                 /* li start */
 
