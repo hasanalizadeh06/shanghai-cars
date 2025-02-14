@@ -301,6 +301,7 @@ function Main() {
           
           .to("#cinematic-video", {
             duration: 8,
+            opacity: 0,
             scale: .5,
             y: -10
           }, ">-8") // 4 seconds before next

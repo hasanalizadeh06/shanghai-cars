@@ -24,11 +24,15 @@ function Cars() {
           <div className="rightSide">
             <h1>BYD</h1>
             <p>Lorem ipsum dolor sit amet Lorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit amet</p>
-            <button>Details</button>
-          </div>
+            <Link to="byd">
+              <button>Details</button>
+            </Link>
+            </div>
         </div>
         <div className="text">
-          <button>Details</button>
+          <Link to="zeekr">
+            <button>Details</button>
+          </Link>
           <div className="text-content">
             <div className="text-header">
               <h1>Zeekr</h1>
@@ -45,7 +49,9 @@ function Cars() {
           <div className="leftSide">
             <h1>NIO</h1>
             <p>Lorem ipsum dolor sit amet Lorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit amet</p>
-            <button>Details</button>
+            <Link to="nio">
+              <button>Details</button>
+            </Link>
           </div>
           <div className="rightSide">
             <img src={img3} alt="" />

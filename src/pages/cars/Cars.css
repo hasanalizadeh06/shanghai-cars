@@ -97,7 +97,7 @@
     position: relative;
 }
 
-.cars > .content > .text > button{
+.cars > .content > .text > a > button{
     position: absolute;
     right: 0;
     top: 0;
