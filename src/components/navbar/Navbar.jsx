@@ -11,11 +11,11 @@ function Navbar() {
             <img id='home' src={logo}/>
           </NavLink>
           <ul className="navigation__sticky-list">
-              <li className="navigation__sticky-list--items" id="overview-item">
+              {/* <li className="navigation__sticky-list--items" id="overview-item">
                   <NavLink to="/about-us">
                     About Us
                   </NavLink>
-              </li>
+              </li> */}
               <li className="navigation__sticky-list--items">
                   <NavLink to="/our-services">
                     Our Sevices

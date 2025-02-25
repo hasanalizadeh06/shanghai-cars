@@ -39,7 +39,7 @@
 .our-services > .main > .container > .content{
     width: 100%;
     gap: 20px;
-    height: 70vh;
+    height: 110vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -57,34 +57,40 @@
 
 .our-services > .main > .container > .content > .content-row > .service{
     padding: 20px;
-    background-image: url("../../assets/img/car_inside.jpg");
     background-size: cover;
-    background-position: 80%;
+    background-position: center center;
+    background-repeat: no-repeat;
     display: flex;
     color: white;
     border-radius: 30px;
 }
 
 .our-services > .main > .container > .content > .first-row{
-    flex-grow: 4;
+    flex-grow: 6;
 }    
 .our-services > .main > .container > .content > .second-row{
     flex-grow: 7;
 }    
 .our-services > .main > .container > .content > .content-row > .service-1{
     flex-grow: 5;
+    background-image: url("../../assets/img/our-services/2.png");
     align-items: flex-end;
 }
 .our-services > .main > .container > .content > .content-row > .service-2{
+    background-image: url("../../assets/img/our-services/3.png");
     flex-grow: 3;
 }
 .our-services > .main > .container > .content > .content-row > .service-3{
     justify-content: center;
+    background-position: 0 -30px;
+    background-image: url("../../assets/img/our-services/4.png");
     flex-grow: 3;
 }
 .our-services > .main > .container > .content > .content-row > .service-4{
     justify-content: flex-end;
+    background-image: url("../../assets/img/car_inside.jpg");
     align-items: flex-end;
+    background-position: 80%;
     flex-grow: 5;
 }
 @media (max-width: 768px) {

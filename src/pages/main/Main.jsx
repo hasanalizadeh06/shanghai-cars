@@ -1,7 +1,7 @@
 import "./Main.css"
 
 import gsap, { Power3 } from 'gsap';
-import React, { useRef,useEffect, use } from 'react'
+import React, { useRef,useEffect, use, useState } from 'react'
 import { useGSAP } from '@gsap/react';
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { ScrollMagicPluginGsap } from 'scrollmagic-plugin-gsap';
@@ -30,6 +30,7 @@ import bg12 from "../../assets/img/bg12.png"
 import phonecar from "../../assets/img/phonecar.png"
 import phoneditor from "../../assets/img/phoneditor.png"
 import vid9 from "../../assets/img/2.3.mp4";
+import vid91 from "../../assets/img/2.3.1.mp4";
 import vid10 from "../../assets/img/5555.mp4";
 
 // import image9 from "../../assets/img/men_and_women2.jpg"
@@ -110,6 +111,21 @@ function Main() {
 
     const videoplayer = useRef(null)
     const videobutton = useRef(null)
+
+    const [screenWidth, setScreenWidth] = useState(window.innerWidth);
+    const vidElement = useRef(null)
+    useEffect(() => {
+      const handleResize = () => {
+        setScreenWidth(window.innerWidth);
+      };
+  
+      window.addEventListener('resize', handleResize);
+  
+      // Cleanup event listener on component unmount
+      return () => {
+        window.removeEventListener('resize', handleResize);
+      };
+    }, []);
 
     const handle = () => {
         if (videoplayer.current.paused) {
@@ -480,7 +496,7 @@ function Main() {
             <section className="section__intro">
                 <div className="section__intro-video">
                     <video ref={deleteVideo} id="intro-video" autoPlay muted>
-                        <source src={vid9} type="video/mp4"/>
+                        <source ref={vidElement} src={(screenWidth > 768 ? vid9 : vid91)} type="video/mp4"/>
                         Your browser does not support the video tag.
                     </video>
                     <img ref={videoImg} src={image1} id="section__intro-poster"/>
