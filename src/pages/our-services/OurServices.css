@@ -286,10 +286,23 @@
 }
 
 .our-services > .campaigns > .items > .item > .upper{
-    height: 300px;
-    background-color: #6edbc6;
+    height: 400px;
     width: 500px;
+    background-size: cover;
 }
+
+.our-services > .campaigns > .items > .item:nth-child(1) > .upper{
+    background-position: center;
+    background-image: url("../../assets/img/our-services/9.png");
+}
+.our-services > .campaigns > .items > .item:nth-child(2) > .upper{
+    background-position: center;
+    background-image: url("../../assets/img/our-services/10.png");
+}
+.our-services > .campaigns > .items > .item:nth-child(3) > .upper{
+    background-image: url("../../assets/img/our-services/11.png");
+}
+
 
 .our-services > .campaigns > .items > .item > .down{
     font-size: 2rem;
